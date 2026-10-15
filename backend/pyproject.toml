@@ -1,0 +1,14 @@
+[project]
+name = "acme-clinical-api"
+version = "1.0.0"
+description = "ACME Clinical - ward patient monitoring API (simulation)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"

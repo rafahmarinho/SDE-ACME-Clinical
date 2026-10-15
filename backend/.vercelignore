@@ -1,0 +1,10 @@
+.venv
+.pglite
+.pytest_cache
+__pycache__
+tests
+tools
+*.pyc
+.env
+.env.*
+!.env.example

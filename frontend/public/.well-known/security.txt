@@ -1,0 +1,4 @@
+Contact: mailto:security@acme-clinical.example
+Expires: 2027-10-12T00:00:00.000Z
+Preferred-Languages: en, pt-BR
+Policy: https://github.com/acme-clinical/acme-clinical/blob/main/SECURITY.md

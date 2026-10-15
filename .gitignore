@@ -1,0 +1,22 @@
+# dependencies & builds
+node_modules/
+dist/
+/demo/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vercel/
+
+# local data & secrets
+.env
+.env.*
+!.env.example
+*.local
+backend/.pglite/
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
